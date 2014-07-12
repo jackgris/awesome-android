@@ -28,7 +28,7 @@ Este es un documento de acceso público en el que se pretende recopilar las mejo
 - [Otros recursos](#otros-recursos)
 
   - [Libros](#libros)
-  -  [Redes sociales](#redes-sociales)
+  - [Redes sociales](#redes-sociales)
   - [Sitios webs](#sitios-webs)
 
 ## Librerias
@@ -125,7 +125,9 @@ TO DO:
 
 ### Redes sociales
 
-TO DO:
+Listado de perfiles importantes en redes sociales como G+, o Twitter y listas de correo.
+
+- [Desarrolladores Android](http://desarrolladores-android.com/) lista de correo de desarrolladores Android de habla hispana (desde la cual se impulso este proyecto)
 
 ### Sitios webs
 
