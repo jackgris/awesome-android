@@ -17,9 +17,12 @@ Este es un documento de acceso público en el que se pretende recopilar las mejo
 
   - [Imágenes](#imagenes)
   - [Bases de datos](#bases-de-datos)
+    - [greenDAO](#greendao)
   - [Conectividad Web](#conectividad-web)
     - [Volley](#volley)
     - [RoboSpice](#robospice)
+  - [Realidad aumentada](#realidad-aumentada)
+    - [Vuforia](#vuforia)
 - [Herramientas](#herramientas)
 
 - [Otros recursos](#otros-recursos)
@@ -40,7 +43,20 @@ TO DO:
 
 Listado de librerías para relacionadas con las bases de datos y almacenamiento de información:
 
-TO DO:
+#### greenDAO
+
+**Descripción:** greenDAO es un ORM que nos va a ayudar a crear y manejar el modelo de base de datos SQLite que vamos a usar en nuestra aplicación.
+
+**URL del proyecto:** http://greendao-orm.com
+
+**Vídeos:**
+- **Caso práctico con greenDAO:** https://www.youtube.com/watch?v=GwWO-zDKJBo
+
+**Tutoriales:** 
+- http://greendao-orm.com/documentation/how-to-get-started
+
+**Comentarios:**
+- **Jackgris:** Le eh utilizado en varios proyectos, creo que esta muy bien armada, algo que me agrado, de una forma muy sencilla podes dejar el manejo del modelo totalmente separado del proyecto. Dejando visible en este unicamente el uso de las operaciones CRUD.
 
 ### Conectividad Web
 
@@ -75,6 +91,25 @@ Listado de librerías para facilitar la tarea de realizar solicitudes Web:
 
 **Comentarios:**
 - **Jackgris:** Sencilla de usar, con varios ejemplos, mucho trabajo y tiempo de desarrollo.
+
+### Realidad aumentada
+
+Listado de librerías para facilitar la tarea de realizar aplicaciones que deban utilizar realidad aumentada:
+
+#### Vuforia
+
+**Descripción:** Es una librería que nos va a dar una interfaz configurable para el uso de realidad aumentada en nuestras aplicaciones.
+
+**URL del proyecto:** https://developer.vuforia.com/getting-started-overview
+
+**Vídeos:**
+- https://www.youtube.com/watch?v=iBk_3m7Zx4s
+
+**Tutoriales:** 
+- https://developer.vuforia.com/resources/dev-guide/getting-started-android-native-sdk
+
+**Comentarios:**
+- **Jackgris:** Una vez que configuramos nuestro entorno de desarrollo, no resulta complicado poder explotar los recursos del manejo de la realidad aumentada en nuestra aplicación.
 
 ## Herramientas
 
