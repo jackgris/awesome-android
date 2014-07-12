@@ -1,7 +1,7 @@
 # Guía para colaborar con el proyecto
 
 Esta va a ser una pequeña guía donde se va a describir como se puede 
-aportar en este proyecto en la traducción, corrección y actualización.
+aportar en este proyecto en agregar recursos, corrección y actualización.
 
 Para esto vamos a explicar como copiar lo que se ha realizado hasta el 
 momento (realizar un fork), guardarlo en tu PC (realizar un clone), y 
@@ -20,7 +20,7 @@ entender el rol que cada uno cumple.
 
 **Repositorio upstream:** es el repositorio en github de la aplicación 
 con la cual vamos a colaborar. En nuestro caso el repositorio está en 
-https://github.com/Jackgris/wikiLibGDX_es. No podremos hacer ningún 
+https://github.com/Jackgris/awesome-android. No podremos hacer ningún 
 cambio directamente sobre este repositorio, ya que no tendremos permisos 
 de escritura sobre el mismo. Lo que haremos es crear nuestra propia 
 copia (fork) del mismo.
@@ -41,7 +41,7 @@ repositorio origin.
 
 Este es el esquema general de trabajo con github, que nos servirá no 
 sólo para colaborar con esta traducción, sino con cualquier proyecto 
-libre alojado en **github**, incluido el propio framework **Libgdx**.
+libre alojado en **github**.
 
 ***
 
@@ -60,7 +60,7 @@ operativo que estés utilizando.
 ## Hacer un fork del repositorio upstream
 
 Navega al sitio de **github** e ingresa con tu usuario y password. Luego 
-tendrás que navegar a https://github.com/Jackgris/wikiLibGDX_es y hacer 
+tendrás que navegar a https://github.com/Jackgris/awesome-android y hacer 
 clic en **“fork”**. Con esto ya habrás creado tu repositorio origin.
 
 ***
@@ -74,18 +74,17 @@ En nuestra estación de trabajo ejecutamos las siguientes instrucciones
     cd ~
     mkdir apps
     cd apps
-    git clone git@github.com:[tu_cuenta_de_github]/wikiLibGDX_es.git
+    git clone git@github.com:[tu_cuenta_de_github]/awesome-android.git
 
-De esta manera nos quedará nuestra copia en `~/apps/wikiLibGDX_es`. Para 
-traducir la documentación sigue los pasos que se encuentran abajo en la 
-guía. 
+De esta manera nos quedará nuestra copia en `~/apps/awesome-android.git`. Para 
+aportar sigue los pasos que se encuentran abajo en la guía. 
 
 ***
 
 ## Guardar los cambios y enviar nuestras traducciones
 
 Una vez que hemos terminado de traducir algún archivo, vamos a querer 
-enviarlo al administrador de **wikiLibGDX_es** para que sean incluidos 
+enviarlo al administrador de **awesome-android** para que sean incluidos 
 en producción. Para ello tendremos que confirmar los cambios en nuestro 
 repositorio local, actualizar nuestro repositorio origin en **github**, 
 y hacer un pedido para que estos cambios sean incluido en el repostiorio 
@@ -97,23 +96,23 @@ cuáles son los archivos que vamos a querer confirmar (commit). Con **git
 commit** confirmamos los cambios en nuestro repositorio local y 
 finalmente, con **git push origin master** subimos los cambios locales a 
 nuestro repositorio origin. Situados en el directorio del repositorio, 
-en nuestro ejemplo `~/apps/wikiLibGDX_es`, estos serían los comandos que 
+en nuestro ejemplo `~/apps/awesome-android`, estos serían los comandos que 
 deberemos ejecutar:
 
     git status
     git add .
-    git commit -m "traduje una nueva página"
+    git commit -m "agregue una nueva librería"
     git push origin master
 
-En caso de haber cargado un incidente para esa página, es sumamente útil 
+En caso de haber cargado un issue para esa página, es sumamente útil 
 incluir el texto fixes seguido del signo `#` y el número del incidente 
 (o **issue**) en el texto que utilizamos al hacer el commit, de la 
-siguiente manera `git commit -m "fixes #34 - traduje una nueva página"`. 
+siguiente manera `git commit -m "fixes #34 - agregue una nueva librería"`. 
 De esta manera **github** relacionará nuestros cambios con el incidente 
 y lo cerrará automáticamente.
 
 Luego navegamos a nuestro repositorio origin, en este caso 
-`https://github.com/[nuestro-usuario]/wikiLibGDX_es`, en donde ya 
+`https://github.com/[nuestro-usuario]/awesome-android`, en donde ya 
 deberías poder ver los cambios que acabamos de subir. Para solicitar al 
 repositorio upstream que integre nuestros cambios simplemente hacemos 
 clic en el botón pull request. Y ahora tan sólo resta esperar que el 
@@ -129,9 +128,9 @@ nuestros repositorios (local y origin) con los cambios del repositorio
 upstream. Para eso configuramos el repositorio upstream como un 
 repositorio remoto (remote) vinculado a nuestro repositorio local. 
 Situados en el directorio del repositorio, en nuestro ejemplo 
-`~/apps/wikiLibGDX_es`, deberemos ejecutar:
+`~/apps/awesome-android`, deberemos ejecutar:
 
-    git remote add upstream git@github.com:Jackgris/wikiLibGDX_es.git
+    git remote add upstream git@github.com:Jackgris/awesome-android.git
 
 Cuando querramos traer las actualizaciones de upstream, deberemos 
 ejecutar:
@@ -148,7 +147,7 @@ superpongan con el trabajo las presonas que deseen contribuir con el
 proyecto.
 
 - 1. Dirigirse a al repositorio upstream 
-(https://github.com/Jackgris/wikiLibGDX_es/) y hacer clic en la parte 
+(https://github.com/Jackgris/awesome-android/) y hacer clic en la parte 
 superior derecha donde dice **"Issues"**.
 - 2. Hacer clic en **"New Issue"**, y como mínimo escribir en el título 
 sobre que archivo se va a trabajar o crear, y si es posible alguna 
@@ -277,9 +276,7 @@ Debería usar un código como el siguiente:
 
 **Añadir imágenes y enlaces:**
 
-Para poder agregar una imagen en el texto, primero vamos a ver el 
-ejemplo de la imagen que se encuentra en la presentación de esta 
-traducción, este es el código que se utiliza:
+Para poder agregar una imagen en el texto, este es el código que se utiliza:
 
     ![LibGDX](./eBook/images/introduccion/libgdx.png)
 
@@ -287,7 +284,7 @@ Como se puede ver, la idea es la siguiente, comenzamos la línea con `!`
 y entre `[]` colocamos una descripción de la imagen, para luego colocar 
 el `PATH` o ruta a la imagen, en este caso la imagen esta guardada en la 
 carpeta `introduccion`, que esta dentro de `images`, y que por último 
-esta esta dentro de la carpeta `eBook` de este proyecto.
+esta esta dentro de la carpeta `eBook` que debería estar en este proyecto.
 
 Para poder añadir un enlace, debe encerrar entre `[]` el texto a mostrar 
 y entre `()` el enlace donde desea apuntar, por ejemplo 
