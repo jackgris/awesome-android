@@ -23,7 +23,9 @@ Este es un documento de acceso público en el que se pretende recopilar las mejo
     - [RoboSpice](#robospice)
   - [Realidad aumentada](#realidad-aumentada)
     - [Vuforia](#vuforia)
+
 - [Herramientas](#herramientas)
+    - [PID cat](#pid-cat)
 
 - [Otros recursos](#otros-recursos)
 
@@ -113,7 +115,19 @@ Listado de librerías para facilitar la tarea de realizar aplicaciones que deban
 
 ## Herramientas
 
-TO DO:
+Listado de herramientas que nos van a ser de utilidad en el desarrollo de aplciaciones Android
+
+#### PID cat
+
+**Descripción:** Esta herramientas es una mejora del script llamado logcat color que nos va a mostrar toda la salida de logcat en diferentes colores dependiendo del tipo, restringiendo unicamente a la salida que corresponde a nustra aplicación en nuestra terminal.
+
+**URL del proyecto:** https://github.com/JakeWharton/pidcat
+
+**Uso:** Como dice en la web del proyecto, una vez configurada,  unicamente debemos ejecutar el script seguido del nombre del paquete de nuestra aplicación, y podremos ver una hermosa salida del logcat coloreada unicamente de nuestra aplicación, sin que se mezcle con el resto de la salida del sistema.
+Aclaración: al ser un script en Python, podremos utilizarlo en cualquier sistema que tengamos el SDK de Android y un interprete de Python instalado.
+
+**Comentarios:**
+- **Jackgris:** En mi caso que me gusta utilizar mucho el logcat cuando desarrollo, esta herramienta me ayuda a obtener una salida mucho más agradable y legible del mismo. A mi particularme me resulta de gran utilidad.
 
 ## Otros recursos
 
