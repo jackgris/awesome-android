@@ -23,6 +23,8 @@ Este es un documento de acceso público en el que se pretende recopilar las mejo
     - [RoboSpice](#robospice)
   - [Realidad aumentada](#realidad-aumentada)
     - [Vuforia](#vuforia)
+  - [Video Juegos](#video-juegos)
+    - [LibGDX](#libgdx)
 
 - [Herramientas](#herramientas)
     - [PID cat](#pid-cat)
@@ -113,9 +115,29 @@ Listado de librerías para facilitar la tarea de realizar aplicaciones que deban
 **Comentarios:**
 - **Jackgris:** Una vez que configuramos nuestro entorno de desarrollo, no resulta complicado poder explotar los recursos del manejo de la realidad aumentada en nuestra aplicación.
 
+## Video Juegos
+
+Listado de framework que nos van a ser de utilidad en el desarrollo de video juegos en 2D y 3D en Android
+
+### LibGDX
+
+**Descripción:** Es un framework que nos va a dar una interfaz configurable para armar nuestros proyectos dedicados al desarrollo de video juegos 2D y 3D. Ademas de ayudarnos a que el mismo sea multiplataforma a pesar de trabajar con código nativo (Java) y aprovechar al máximo el rendimiento de la GPU utilizando OpenGL.
+
+**URL del proyecto:** http://libgdx.badlogicgames.com
+
+**Vídeos:**
+- https://www.youtube.com/watch?v=IBsvuT7MzpY
+
+**Tutoriales:** 
+- https://github.com/Jackgris/wikiLibGDX_es
+- https://github.com/libgdx/libgdx/wiki
+
+**Comentarios:**
+- **Jackgris:** Creo que esta herramienta acelera mucho el desarrollo de video juegos, es libre, utiliza Gradle (sistema de contrucción de proyecto apoyado por Google) y hace que sea muy facil portar nuestro proyecto a la Web, IOS, y Escritorio.
+
 ## Herramientas
 
-Listado de herramientas que nos van a ser de utilidad en el desarrollo de aplciaciones Android
+Listado de herramientas que nos van a ser de utilidad en el desarrollo de aplicaciones Android
 
 #### PID cat
 
