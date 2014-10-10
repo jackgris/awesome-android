@@ -98,6 +98,25 @@ Listado de librerías para facilitar la tarea de realizar solicitudes Web:
 **Comentarios:**
 - **Jackgris:** Sencilla de usar, con varios ejemplos, mucho trabajo y tiempo de desarrollo.
 
+### Realidad aumentada
+
+Listado de librerías para facilitar la tarea de realizar aplicaciones que deban utilizar realidad aumentada:
+
+#### Vuforia
+
+**Descripción:** Es una librería que nos va a dar una interfaz configurable para el uso de realidad aumentada en nuestras aplicaciones.
+
+**URL del proyecto:** https://developer.vuforia.com/getting-started-overview
+
+**Vídeos:**
+- https://www.youtube.com/watch?v=iBk_3m7Zx4s
+
+**Tutoriales:** 
+- https://developer.vuforia.com/resources/dev-guide/getting-started-android-native-sdk
+
+**Comentarios:**
+- **Jackgris:** Una vez que configuramos nuestro entorno de desarrollo, no resulta complicado poder explotar los recursos del manejo de la realidad aumentada en nuestra aplicación.
+
 ### Bluetooth
 
 Listado de librerías para facilitar la tarea de realizar aplicaciones que deban utilizar bluetooth:
@@ -115,22 +134,7 @@ Listado de librerías para facilitar la tarea de realizar aplicaciones que deban
 - http://tutorial.invention-zone.com/bluetooth-hc-05-module/
 
 **Comentarios:**
-- **Jackgris:** Lo poco que la eh utilizado, parece ser muy fácil de utilizar y bastante completa.
-
-#### Vuforia
-
-**Descripción:** Es una librería que nos va a dar una interfaz configurable para el uso de realidad aumentada en nuestras aplicaciones.
-
-**URL del proyecto:** https://developer.vuforia.com/getting-started-overview
-
-**Vídeos:**
-- https://www.youtube.com/watch?v=iBk_3m7Zx4s
-
-**Tutoriales:** 
-- https://developer.vuforia.com/resources/dev-guide/getting-started-android-native-sdk
-
-**Comentarios:**
-- **Jackgris:** Una vez que configuramos nuestro entorno de desarrollo, no resulta complicado poder explotar los recursos del manejo de la realidad aumentada en nuestra aplicación.
+- **Jackgris:** Lo poco que la eh utilizado, parece ser muy fácil de utilizar y bastante completa
 
 ## Video Juegos
 
