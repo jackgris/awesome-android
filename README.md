@@ -21,6 +21,8 @@ Este es un documento de acceso público en el que se pretende recopilar las mejo
   - [Conectividad Web](#conectividad-web)
     - [Volley](#volley)
     - [RoboSpice](#robospice)
+  - [Bluetooth](#bluetooth)
+    - [BluetoothSPP](#bluetoothspp)
   - [Realidad aumentada](#realidad-aumentada)
     - [Vuforia](#vuforia)
   - [Video Juegos](#video-juegos)
@@ -96,9 +98,28 @@ Listado de librerías para facilitar la tarea de realizar solicitudes Web:
 **Comentarios:**
 - **Jackgris:** Sencilla de usar, con varios ejemplos, mucho trabajo y tiempo de desarrollo.
 
+### Bluetooth
+
+Listado de librerías para facilitar la tarea de realizar aplicaciones que deban utilizar bluetooth:
+
+#### BluetoothSPP
+
 ### Realidad aumentada
 
 Listado de librerías para facilitar la tarea de realizar aplicaciones que deban utilizar realidad aumentada:
+
+**Descripción:** Es una librería que nos va a dar una interfaz configurable para el uso del bluetooth en nuestras aplicaciones.
+
+**URL del proyecto:** https://github.com/akexorcist/Android-BluetoothSPPLibrary
+
+**Vídeos:**
+- https://www.youtube.com/watch?v=XqxV9QOqkiI
+
+**Tutoriales:** 
+- http://tutorial.invention-zone.com/bluetooth-hc-05-module/
+
+**Comentarios:**
+- **Jackgris:** Lo poco que la eh utilizado, parece ser muy fácil de utilizar y bastante completa.
 
 #### Vuforia
 
