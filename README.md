@@ -104,10 +104,6 @@ Listado de librerías para facilitar la tarea de realizar aplicaciones que deban
 
 #### BluetoothSPP
 
-### Realidad aumentada
-
-Listado de librerías para facilitar la tarea de realizar aplicaciones que deban utilizar realidad aumentada:
-
 **Descripción:** Es una librería que nos va a dar una interfaz configurable para el uso del bluetooth en nuestras aplicaciones.
 
 **URL del proyecto:** https://github.com/akexorcist/Android-BluetoothSPPLibrary
